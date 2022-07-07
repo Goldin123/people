@@ -41,6 +41,7 @@ namespace Demo
         }
         static void Main(string[] args)
         {
+            var allFilms = new List<string>();
             string name = string.Empty;
             string urlParameters = "";
             string URL = "https://swapi.dev/api/people";
@@ -64,26 +65,11 @@ namespace Demo
 
 
 
-                foreach (var d in people.results)
+                foreach (var person in people.results)
                 {
 
-                    if (couter == 1)
-                    {
-                        couter++;
-                        continue;
-                    }
-                    else
-                    {
+                    allFilms.AddRange(person.films);                    
 
-                        var check = d.films.Except(people.results[couter - 1].films).Any();
-                        if (check)
-                        {
-                            name = name + d.name + ";";
-                        }
-
-                        couter++;
-
-                    }
 
 
                 }

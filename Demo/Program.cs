@@ -41,11 +41,9 @@ namespace Demo
         }
         static void Main(string[] args)
         {
-            var allFilms = new List<string>();
             string name = string.Empty;
             string urlParameters = "";
             string URL = "https://swapi.dev/api/people";
-            int couter = 1;
 
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(URL);
@@ -63,17 +61,22 @@ namespace Demo
 
                 var people = JsonConvert.DeserializeObject<Results>(dataObjects);
 
-
-
                 foreach (var person in people.results)
                 {
 
-                    allFilms.AddRange(person.films);                    
+                    foreach(var film in person.films) 
+                    {
+                        var has = people.results.Where(a => a.films.Contains(film));
 
-
-
+                        if (has.Any())
+                        {
+                            if(!name.Contains(person.name))
+                                name = name + "; " + person.name;
+                        }
+                    }
+                    
                 }
-
+                
                 Console.WriteLine(name);
                 Console.ReadLine();
             }

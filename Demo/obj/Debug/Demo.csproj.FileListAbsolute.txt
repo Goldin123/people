@@ -1,0 +1,17 @@
+C:\WS\DemoInvestec\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+C:\WS\DemoInvestec\Demo\Demo\obj\Debug\Demo.csproj.SuggestedBindingRedirects.cache
+C:\WS\DemoInvestec\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\Demo.exe.config
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\Demo.exe
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\Demo.pdb
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\Newtonsoft.Json.dll
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\System.Security.AccessControl.dll
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\System.Security.Principal.Windows.dll
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\Newtonsoft.Json.xml
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\System.Security.AccessControl.xml
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\WS\DemoInvestec\Demo\Demo\bin\Debug\System.Security.Principal.Windows.xml
+C:\WS\DemoInvestec\Demo\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\WS\DemoInvestec\Demo\Demo\obj\Debug\Demo.exe
+C:\WS\DemoInvestec\Demo\Demo\obj\Debug\Demo.pdb
